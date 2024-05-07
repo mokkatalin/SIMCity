@@ -1,0 +1,16 @@
+﻿<Window x:Class="CityBuilder.View.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CityBuilder.View"
+        mc:Ignorable="d"
+        Title="HelpWindow" FontFamily="Bahnschrift" Height="700" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,27,0,0" TextWrapping="Wrap" Text="Help" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" Margin="0,103,0,0">
+            <Run Text="The area visible on the main screen is where the player can build their own city and manage it as the mayor. The city is made up of different types of zones, service buildings that the player must build separately, and roads that connect them. The player receives a starting capital for initial city building, but must rely on local tax revenues for further development. The player's goal is to develop a thriving city where citizens are happy and the budget is balanced."/><LineBreak/><Run/><LineBreak/><Run
+            Text="The player can designate three types of zones on each individual field in the city: residential, industrial, and service zones. There is a cost to designating zones, but citizens can automatically build homes and jobs in these areas. The player can also revert designated zones back to general fields (as long as no construction has taken place), and will receive a partial refund of the cost. When zones are designated, information is displayed regarding their capacity and saturation. In the left sidebar, the player can select and build various zones and buildings. After selecting, the player can build on any field of the main grid."/><LineBreak/><Run/><LineBreak/><Run
+             Text="Certain buildings in the city are not automatically built by citizens according to their needs, and it is up to the player to explicitly construct them on a general field that is not part of a designated zone. These buildings have significant construction costs and annual maintenance fees, but the player will receive a partial refund when they are demolished. Multiple instances of individual buildings can be constructed in the city. There is also the option to build roads on free fields, as well as demolish them. Buildings only have an effect when they are built adjacent to a road. The player's task is to develop a larger city, which requires a larger population. In the initial phase of the game, a certain, smaller population is guaranteed to arrive in the city if there are available residential zones, thus helping to get the settlement started. If overall city satisfaction becomes critically low, the mayor will be replaced and the player will have lost."/></TextBlock>
+    </Grid>
+</Window>
